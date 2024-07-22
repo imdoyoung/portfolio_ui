@@ -331,8 +331,8 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/kkomi.jpg") top center;
-  background-size: contain;
+  background: url("../img/macau.jpg") top center;
+  background-size: cover;
   padding: 0 15px;
 }
 
@@ -350,6 +350,7 @@ h6 {
   font-size: 24px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
+  /*background-color: lightgrey;*/
 }
 
 #hero .btn-get-started {
@@ -485,6 +486,10 @@ section {
 
 .about .content p {
   margin-bottom: 0;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .about .content .count-box {
@@ -507,14 +512,18 @@ section {
   font-weight: 700;
   color: #2c4964;
   margin-left: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
   color: #437099;
 }
 
@@ -533,8 +542,8 @@ section {
 }
 
 .about .image {
-  background: url("../img/youngii.jpg") center center no-repeat;
-  background-size: cover;
+  background: url("../img//doyoung.jpg") center center no-repeat;
+  background-size: auto;
   min-height: 400px;
 }
 
